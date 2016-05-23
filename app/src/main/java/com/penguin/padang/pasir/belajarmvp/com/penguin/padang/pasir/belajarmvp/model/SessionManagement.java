@@ -6,7 +6,7 @@ package com.penguin.padang.pasir.belajarmvp.com.penguin.padang.pasir.belajarmvp.
 public class SessionManagement implements ModelInterface {
 
     @Override
-    public void setData(String key, String value) {
+    public void setData() {
 
     }
 
