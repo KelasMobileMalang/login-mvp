@@ -8,9 +8,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.penguin.padang.pasir.belajarmvp.com.penguin.padang.pasir.belajarmvp.presenter.LoginPresenter;
-import com.penguin.padang.pasir.belajarmvp.com.penguin.padang.pasir.belajarmvp.presenter.LoginPresenterImp;
-import com.penguin.padang.pasir.belajarmvp.com.penguin.padang.pasir.belajarmvp.views.LoginView;
+import com.penguin.padang.pasir.belajarmvp.presenter.LoginPresenter;
+import com.penguin.padang.pasir.belajarmvp.presenter.LoginPresenterImp;
+import com.penguin.padang.pasir.belajarmvp.views.LoginView;
 
 public class MainActivity extends AppCompatActivity implements LoginView {
 
@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements LoginView {
     private Button loginSubmit;
     private EditText loginUsername;
     private EditText loginPassword;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

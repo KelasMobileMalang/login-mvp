@@ -1,4 +1,4 @@
-package com.penguin.padang.pasir.belajarmvp.com.penguin.padang.pasir.belajarmvp.presenter;
+package com.penguin.padang.pasir.belajarmvp.presenter;
 
 /**
  * Created by jowy on 5/23/16.

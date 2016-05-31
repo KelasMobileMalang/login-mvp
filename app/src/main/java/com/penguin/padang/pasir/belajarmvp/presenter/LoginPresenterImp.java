@@ -1,8 +1,8 @@
-package com.penguin.padang.pasir.belajarmvp.com.penguin.padang.pasir.belajarmvp.presenter;
+package com.penguin.padang.pasir.belajarmvp.presenter;
 
 import android.text.TextUtils;
 
-import com.penguin.padang.pasir.belajarmvp.com.penguin.padang.pasir.belajarmvp.views.LoginView;
+import com.penguin.padang.pasir.belajarmvp.views.LoginView;
 
 /**
  * Created by jowy on 5/23/16.

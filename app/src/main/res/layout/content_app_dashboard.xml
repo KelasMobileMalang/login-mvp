@@ -12,4 +12,24 @@
     tools:context="com.penguin.padang.pasir.belajarmvp.AppDashboard"
     tools:showIn="@layout/app_bar_app_dashboard">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_title"
+        android:text="Belajar Retrofit"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_getasmodel"
+        android:text="Get as Model"
+        android:layout_below="@+id/tv_title"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_getasjson"
+        android:text="Get as JSON"
+        android:layout_below="@+id/bt_getasmodel"/>
+
 </RelativeLayout>
